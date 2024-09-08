@@ -32,30 +32,13 @@ p{
 .hide{
 display: none;
 }
-#mobile-menu ul{
-  animation-name: menu;
-  animation-duration: 0.9s;
-}
-@keyframes menu{
-from{
-  opacity: 0;
-  height: 0;
-background: rgb(11, 220, 247);
-}
-to{
-  opacity: 1;
-  height: 19%;
-background-color: rgb(0, 16, 227);
-}
-}
-#mobile-menu ul{
-  background:linear-gradient(rgb(48, 125, 202),rgb(44, 44, 170));
-  height: 19%;
-}
+
+
 
 
 #btn1 a{
   color: white;
+ 
 }
 
 #btn1 a:hover{
